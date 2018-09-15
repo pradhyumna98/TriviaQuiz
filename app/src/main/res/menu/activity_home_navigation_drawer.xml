@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/action_category"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:title="Categories"></item>
+
+    <item
+        android:id="@+id/action_ranking"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="Ranking"></item>
+    <item android:title="Instructions" android:id="@+id/Instructions"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_description_black_24dp"/>
+    <item android:title="About us" android:id="@+id/Aboutus"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_comment_black_24dp"/>
+    <item android:title="Send Feedback"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_feedback_black_24dp"
+        android:id="@+id/feedback"/>
+    <item
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+
+        android:id="@+id/logout"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="LOGOUT"/>
+</menu>

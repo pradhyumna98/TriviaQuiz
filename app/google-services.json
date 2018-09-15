@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206911204611",
+    "firebase_url": "https://online-quiz-1594f.firebaseio.com",
+    "project_id": "online-quiz-1594f",
+    "storage_bucket": "online-quiz-1594f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206911204611:android:69c008071fca1204",
+        "android_client_info": {
+          "package_name": "com.example.pradhyumna.triviaquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206911204611-hg8nq0aa16i68h6uv64muorjuac2qjjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pradhyumna.triviaquiz",
+            "certificate_hash": "d4af021bab8a7732108d0986cd2ac23024ece43b"
+          }
+        },
+        {
+          "client_id": "206911204611-3j8fg7dt8miia26f5nbpqpjfl4g3f9e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodCBUUkkHYvT-DaoFI4MDauBf9-wkIIY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206911204611-3j8fg7dt8miia26f5nbpqpjfl4g3f9e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

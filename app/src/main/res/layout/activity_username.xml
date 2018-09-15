@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pradhyumna.triviaquiz.Username">
+    <com.github.glomadrian.grav.GravView
+        android:id="@+id/grav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+        app:array_colors="@array/bubble"
+        app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+        app:regular_cell_size="300"
+        app:regular_variance="200"
+        app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+        app:ball_from_size="10dp"
+        app:ball_to_size="20dp"
+        app:animationGenerators="@array/BubbleAnimations"
+        app:side_to_side_min_duration="10000"
+        app:side_to_side_max_duration="10000"
+        app:side_to_side_direction="leftToRight"
+        app:shake_direction="vertical"
+        app:shake_min_duration="10000"
+        app:shake_max_duration="20000"
+        app:shake_variance="500dp"
+        />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/useret"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/passet"
+
+        />
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="30dp">
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Login!"
+           android:textSize="25dp"
+           android:textColor="#FFFFFF"
+           android:textStyle="bold"
+           android:background="#AD1457"
+           android:theme="@style/MyButton"
+           android:layout_marginHorizontal="41dp"
+           android:layout_gravity="center"
+           android:id="@+id/logbt"/>
+       <com.google.android.gms.common.SignInButton
+       android:id="@+id/sign_in_button"
+       android:layout_width="wrap_content"
+       android:layout_marginHorizontal="41dp"
+       android:layout_height="wrap_content"/>
+   </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:text="NEW USER SIGN UP HERE!!"
+        android:textColor="#FFBC61"
+        android:layout_gravity="center"
+        android:id="@+id/newtv"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#AD1457"
+        android:theme="@style/MyButton"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/signbt"/>
+
+
+</LinearLayout>
+</FrameLayout>

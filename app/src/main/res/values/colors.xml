@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGold">#FFD700</color>
+    <color name="colorski">#00ffbb</color>
+    <color name="colorLightSki">#94ffe3</color>
+    <color name="colorCorrect">#24c41c</color>
+    <color name="colorCorrectLight">#61fc55</color>
+    <color name="colorWrong">#e61105</color>
+    <color name="colorWrongLight">#fd6267</color>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    tools:context="com.example.pradhyumna.triviaquiz.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/trivia"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="40dp"/>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+   >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:src="@drawable/quizlogo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+    <com.github.glomadrian.grav.GravView
+        android:id="@+id/grav"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+        app:array_colors="@array/red"
+        app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+        app:regular_cell_size="150"
+        app:regular_variance="100"
+        app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+        app:ball_size_from_size="3dp"
+        app:ball_size_to_size="6dp"
+        app:alpha_min_duration="1000"
+        app:alpha_max_duration="2000"
+        app:alpha_from="0"
+        app:alpha_to="255"
+        app:animationGenerators="@array/path"
+        app:path_variance_from="-10dp"
+        app:path_variance_to="12dp"
+        app:path="@string/circle"
+        app:path_original_width="@integer/circle_original_width"
+        app:path_original_height="@integer/circle_original_height"
+        app:path_min_duration="5000"
+        app:path_max_duration="6000"
+        />
+</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Trivia Quiz!!"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:id="@+id/welcome"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

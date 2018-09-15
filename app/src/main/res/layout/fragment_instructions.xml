@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    tools:context=".InstructionsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="28dp"
+        android:text="Quiz consist of five different genres and questions ranging from Easy to Very Difficult level and you get only one chance to get a question right once clicked on an option can’t be rectified and twenty points will be deducted for an incorrect answer and ten points will be awarded for a correct answer. You have to click the correct answer before the timer runs out and for every question you get ten seconds timer. " />
+
+</LinearLayout>

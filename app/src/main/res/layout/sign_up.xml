@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/useret1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email-Id"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/emailet1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/passet1"
+        />
+
+
+</LinearLayout>
